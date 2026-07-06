@@ -1,7 +1,7 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from "axios";
 import { getDeviceId } from "./deviceId";
 
-export const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://render.com/docs/web-services#port-binding/api";
+export const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://i-tec-computer-centers.onrender.com/api";
 
 const ACCESS_TOKEN_KEY = "akm_lms_access_token";
 const REFRESH_TOKEN_KEY = "akm_lms_refresh_token";
